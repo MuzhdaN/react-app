@@ -3,10 +3,18 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  height: 100vh;
+  /* height: 100vh; */
   background: #282D35;
 }
 
+.App {
+  margin-top: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 /* Navbar */
 
@@ -30,9 +38,10 @@ nav {
 }
 
 .logo {
-  width: 70px;
+  width: 60px;
+  height: 60px;
   text-align: center;
-  padding: 0.2rem;
+  padding-right: 2px;
 }
 
 .title {
